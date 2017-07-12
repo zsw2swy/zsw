@@ -1,0 +1,104 @@
+/*特价页面样式*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 375px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#head {
+    height: 50px;
+    text-align: left;
+    color: #555555;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    line-height: 1.2em;
+}
+
+/*价格模块*/
+#purchase {
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo4 {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.symbol {
+    color: #ff6b47;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 94px;
+}
+
+.price {
+    color: #fe6b49;
+    font-size: 40px;
+    position: absolute;
+    left: 25px;
+    top: 90px;
+    width: 100px;
+}
+.used-symbol {
+    color:#dddddd;
+    position: absolute;
+    font-size: 16px;
+    left: 130px;
+    top: 94px;
+}
+.used-price{
+    color:#dddddd;
+    position: absolute;
+    left: 140px;
+    top: 97px;
+}
+
+/*地址模块*/
+#address {
+    height: 135px;
+    position: relative;
+    border-bottom: 1px whitesmoke solid;
+    border-top: 1px whitesmoke solid;
+    font-size: 10px;
+    color: #c2c2c2;
+    width: 100%;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shop{
+    position: absolute;
+    left: 145px;
+    top: 46px;
+}
+.shop-address{
+    position: absolute;
+    left: 145px;
+    top: 77px;
+    word-wrap:break-word;
+    width: 200px;
+}
+
+.logo1 {
+    position: absolute;
+    margin-top: 30px;
+}
+
+/*图片模块*/
+#content {
+    padding-top: 18px;
+    margin-left: 10px;
+
+}

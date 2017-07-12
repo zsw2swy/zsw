@@ -1,0 +1,36 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 375px;
+    overflow-x: hidden;
+}
+.list{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+#qr-code{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#footer{
+    background: #f2f2f2;
+    color: #afafaf;
+
+}
+ul{
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li{
+
+    color: #676767;
+}

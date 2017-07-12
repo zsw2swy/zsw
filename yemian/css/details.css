@@ -1,0 +1,125 @@
+/*兑换页面*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 375px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#head {
+    height: 50px;
+    text-align: left;
+    color: #555555;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    line-height: 1.6em;
+}
+
+/*兑换模块*/
+#purchase {
+    margin-left: 10px;
+    margin-right: 10px;
+    zoom: 1;
+    overflow: hidden;
+
+}
+
+.money {
+    height: 21px;
+    width: 51px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    top: 70px;
+    float: left;
+
+}
+
+.symbol {
+    color: #ffb440;
+    font-size: 20px;
+    margin-top: 26px;
+
+}
+
+.price {
+    color: #feb33c;
+    font-size: 40px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -20px;
+
+
+}
+
+.integral {
+    width: 197px;
+    height: 50px;
+    background-color: #fed942;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+#bt {
+    float: right;
+
+
+}
+
+/*地址模块*/
+#address {
+    height: 135px;
+    position: relative;
+    border: 1px whitesmoke solid;
+    font-size: 10px;
+    color: #c2c2c2;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+
+}
+
+.shop {
+    position: absolute;
+    left: 145px;
+    top: 46px;
+}
+
+.shop-address {
+    position: absolute;
+    left: 145px;
+    top: 77px;
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.logo1 {
+    position: absolute;
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#content {
+    padding-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
